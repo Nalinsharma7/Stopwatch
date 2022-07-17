@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/14097a442a.js" crossorigin="anonymous"></script>
+
+    <!-- css File -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>STOPWATCH</title>
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        <h1>STOPWATCH</h1>
+        <h3>Let's Go!</h3>
+    </div>
+
+    <!-- main body -->
+    <div id="main">
+        <div><i class="fa-solid fa-stopwatch-20" style="font-size:1000%"></i></div>
+        
+        <div id="mid-section">
+            <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>
+            <img src="watch.jpg">
+            <h4 class="quote"><p>The problem is </p>
+                <p>You think</p>
+                <p>You have time...</p>
+            </h4>
+        </div>
+        <div class="buttons">
+            <span class="btn start" onclick="start()"><i class="fa-brands fa-google-play"></i></span>
+            <span class="btn stop" onclick="stop()"><i class="fa-solid fa-pause"></i></span>
+            <span class="btn cancel" onclick="reset()"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+    </div>
+    
+
+    <!-- footer -->
+    <div id="footer">
+        <a href="https://www.linkedin.com/in/nalin-sharma/" target="_blank"><div class="name">Nalin Sharma</div></a>
+    </div>
+
+
+
+
+    <!-- Javascript File -->
+    <script src="script.js"></script>
+</body>
+</html>
